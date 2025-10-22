@@ -9,7 +9,7 @@ public class Iniciar {
 		// TODO Auto-generated method stub
 		GranPremio granPremio = new GranPremio("GP Getafe");
 		
-		granPremio.empezarGranPremio();
+		granPremio.empezarGranPremio(granPremio);
 
 		System.out.println(granPremio.getCarreras().get(1).getNombre());
 		Jinete jinete1 = new Jinete("Pepe",35);
