@@ -58,7 +58,7 @@ public class GranPremio {
 
 
 
-	public void empezarGranPremio() {
+	public void empezarGranPremio(GranPremio granPremio) {
 		
 		Carrera carrera1 = new Carrera("Carrera1",100);
 		Carrera carrera2 = new Carrera("Carrera2",200);
