@@ -2,6 +2,6 @@ package GranPremio.Interfaces;
 
 public interface Imprimible {
 	
-	String imprimeDatos();
+	void imprimeDatos();
 
 }

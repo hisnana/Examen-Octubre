@@ -1,7 +1,12 @@
 package GranPremio;
 
-public class Jinete extends Persona {
+import java.util.Random;
+
+import GranPremio.Interfaces.Participable;
+
+public class Jinete extends Persona implements Participable {
 	private int aniosExperiencia;
+	private String id;
 
 
 	public Jinete(String nombre, int edad) {
@@ -23,6 +28,14 @@ public class Jinete extends Persona {
 
 	public void setAniosExperiencia(int aniosExperiencia) {
 		this.aniosExperiencia = aniosExperiencia;
+	}
+
+
+	@Override
+	public String getId() {
+		Random random = new Random();
+		this.id= this.getNombre()+random.nextInt(100);
+		return id;
 	}
 	
 	

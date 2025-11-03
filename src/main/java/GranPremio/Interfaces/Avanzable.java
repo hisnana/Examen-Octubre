@@ -1,6 +1,6 @@
 package GranPremio.Interfaces;
 
 public interface Avanzable {
-	double calcularAvanceTurno();
+	int calcularAvanceTurno();
 	void aplicarAvance(double metros);
 }

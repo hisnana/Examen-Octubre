@@ -1,8 +1,9 @@
 package utils;
 
+import java.util.Random;
 import java.util.Scanner;
 
-public class Utilidades {
+public class SimUtils {
 
 	//metodo calcularEdad al cual le pasamos un año y le devolvemos la edad apatir de ese año.
 	
@@ -46,8 +47,9 @@ public class Utilidades {
 		
 	}
 	
-	public static int generarNumRandom() {
-		int numAleatorio= (int) (Math.random()*10);
+	public static int generarNumRandom(int num) {
+		Random random = new Random();
+		int numAleatorio= random.nextInt(num);
 		
 		return numAleatorio;
 	}

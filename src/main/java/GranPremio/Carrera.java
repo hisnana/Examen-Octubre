@@ -1,37 +1,46 @@
 package GranPremio;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Carrera {
 	private String nombre;
-	private int numMetros;
+	private int distanciaObjetivo;
 	private List<Caballo> caballosParticipantes;
+	private List<Jinete> jinetesParticipantes;
 	private List<Apuesta> apuestas;
 	
-	public Carrera(String nombre, int numMetros) {
-		super();
-		this.nombre = nombre;
-		this.numMetros = numMetros;
-	}
-	
-	
-	public Carrera(String nombre, int numMetros, List<Caballo> caballosParticipantes) {
-		super();
-		this.nombre = nombre;
-		this.numMetros = numMetros;
-		this.caballosParticipantes = caballosParticipantes;
-	}
-	
-	
 
 
-	public Carrera(String nombre, int numMetros, List<Caballo> caballosParticipantes, List<Apuesta> apuestas) {
+	public Carrera(String nombre, int distanciaObjetivo) {
 		super();
 		this.nombre = nombre;
-		this.numMetros = numMetros;
-		this.caballosParticipantes = caballosParticipantes;
-		this.apuestas = apuestas;
+		this.distanciaObjetivo = distanciaObjetivo;
+		this.caballosParticipantes = new ArrayList<Caballo>();
+		this.jinetesParticipantes = new ArrayList<Jinete>();
+		this.apuestas = new ArrayList<Apuesta>();
 	}
+
+
+	public double getDistanciaObjetivo() {
+		return distanciaObjetivo;
+	}
+
+
+	public void setDistanciaObjetivo(int distanciaObjetivo) {
+		this.distanciaObjetivo = distanciaObjetivo;
+	}
+
+
+	public List<Jinete> getJinetesParticipantes() {
+		return jinetesParticipantes;
+	}
+
+
+	public void setJinetesParticipantes(List<Jinete> jinetesParticipantes) {
+		this.jinetesParticipantes = jinetesParticipantes;
+	}
+
 
 
 	public String getNombre() {
@@ -40,12 +49,7 @@ public class Carrera {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	public int getNumMetros() {
-		return numMetros;
-	}
-	public void setNumMetros(int numMetros) {
-		this.numMetros = numMetros;
-	}
+
 	public List<Caballo> getCaballosParticipantes() {
 		return caballosParticipantes;
 	}
@@ -57,7 +61,6 @@ public class Carrera {
 	public List<Apuesta> getApuestas() {
 		return apuestas;
 	}
-
 
 	public void setApuestas(List<Apuesta> apuestas) {
 		this.apuestas = apuestas;
