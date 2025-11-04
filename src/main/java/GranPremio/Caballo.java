@@ -25,7 +25,7 @@ public class Caballo implements Reseteable,Participable,Avanzable,Imprimible {
 		
 		this.nombre = nombre;
 		this.peso = ThreadLocalRandom.current().nextInt(20, 30);
-		this.velocidad = ThreadLocalRandom.current().nextInt(20, 51);
+		this.velocidad = ThreadLocalRandom.current().nextInt(20, 30);
 		this.experiencia = ThreadLocalRandom.current().nextInt(0, 10);
 		this.jinete = jinete;
 		
@@ -49,18 +49,20 @@ public class Caballo implements Reseteable,Participable,Avanzable,Imprimible {
 	@Override
 	public int calcularAvanceTurno() {
 		// TODO Auto-generated method stub
-		int baseAleatoria= SimUtils.generarNumRandom(10);
+		int baseAleatoria= SimUtils.generarNumRandom(50);
 		MiLogger.info("La base aleatoria es "+baseAleatoria);
 		int avanceMetros= (int) (baseAleatoria+velocidad+experiencia-peso+jinete.getAniosExperiencia());
 		if (avanceMetros < 0) {
 			avanceMetros = 0;
 		}
 		MiLogger.info("El caballo "+nombre+" avanza "+avanceMetros);
+		
 		return avanceMetros;
 	}
 	@Override
-	public void aplicarAvance(double avanceMetros) {
+	public void aplicarAvance(int avanceMetros) {
 		this.metrosRecorridos+=avanceMetros;
+		MiLogger.info("Su avance total es: "+metrosRecorridos);
 		
 	}
 	@Override

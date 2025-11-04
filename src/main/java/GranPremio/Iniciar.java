@@ -15,14 +15,15 @@ public class Iniciar {
 
 		boolean ganador= false;
 		for (Carrera carrera : gpGetafe.getCarreras()) {
-			MiLogger.info("Comienza la carrera "+carrera.getNombre());
+			MiLogger.info("Comienza la carrera "+carrera.getNombre()+" con los metros "+carrera.getDistanciaObjetivo());
 			do {
-				
+				gpGetafe.apuestas(gpGetafe);
 				ganador = gpGetafe.comenzarCarrera(carrera);
 				
-			} while (ganador=!true);
+				
+			} while (ganador==false);
 			MiLogger.info("Fin de la carrera "+carrera.getNombre());
-			break;
+			continue;
 		}
 
 	}

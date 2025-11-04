@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
 import utils.MiLogger;
 import utils.SimUtils;
 
@@ -117,35 +116,34 @@ public class GranPremio {
 	public void apuestas(Carrera carrera) {
 		Map<String,Caballo> mapaCaballos = new HashMap<>();
 		for (Caballo caballo : carrera.getCaballosParticipantes()) {
+			MiLogger.info("\tCaballo " + caballo.getNombre() + " con el jinete: " + caballo.getJinete().getNombre());
 			mapaCaballos.put(caballo.getNombre(), caballo);
 		}
 		for (Apostante apostante : this.apostantes) {
 			MiLogger.info("El apostante "+apostante.getNombre()+" con el saldo "+apostante.getSaldo());
 			String nombreCaballo = SimUtils.pideDatoCadena("Introduce el caballo por el que apuestas");
+			Caballo caballoApostado = mapaCaballos.get(nombreCaballo);
+			double cantidad = SimUtils.pideDatoNumerico("Cantidad a apostar");
 			
+			Apuesta apuesta = new Apuesta(apostante,caballoApostado, cantidad);
+			carrera.addApuesta(apuesta);
 		}
-		for(Apuesta apuesta : carrera.getApuestas() ) {
-			
-		}
+
 	}
 	
 	public boolean comenzarCarrera(Carrera carrera) {
 		boolean ganador = false;
 		for (Caballo caballo : carrera.getCaballosParticipantes()) {
-			
-			
 			if(caballo.getJinete()!= null&&caballo.getMetrosRecorridos()<carrera.getDistanciaObjetivo()) {
-				
 				int avance = caballo.calcularAvanceTurno();
 				caballo.aplicarAvance(avance);
 				ganador = false;
 				
-
 			}
-			if(caballo.getMetrosRecorridos()>=carrera.getDistanciaObjetivo()) {
+			if(caballo.getMetrosRecorridos()>=(int)carrera.getDistanciaObjetivo()) {
 				ganador = true;
-				MiLogger.info("El caballo "+caballo.getNombre()+" es el canador de la carrera "+carrera.getNombre());
-				continue;
+				MiLogger.info("GANADOR: "+caballo.getNombre()+" DE LA  "+carrera.getNombre());
+				break;
 			}
 
 		}

@@ -3,6 +3,7 @@ package GranPremio;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class Carrera {
 	private String nombre;
 	private int distanciaObjetivo;
@@ -65,7 +66,9 @@ public class Carrera {
 	public void setApuestas(List<Apuesta> apuestas) {
 		this.apuestas = apuestas;
 	}
-	
+	 public void addApuesta (Apuesta apuesta) {
+		 this.apuestas.add(apuesta);
+	 }
 	
 
 }
