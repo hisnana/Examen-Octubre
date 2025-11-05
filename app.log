@@ -551,3 +551,394 @@
 2025-11-04 20:47:52 [INFO] (Caballo): Su avance total es: 442
 2025-11-04 20:47:52 [INFO] (GranPremio): GANADOR: caballo3 DE LA  Carrera3
 2025-11-04 20:47:52 [INFO] (Iniciar): Fin de la carrera Carrera3
+2025-11-05 16:34:51 [INFO] (Caballo): Rocinante Exp 9 Peso 23.0 Vel 23 y su jinete es Pepe
+2025-11-05 16:34:51 [INFO] (Caballo): caballo2 Exp 4 Peso 24.0 Vel 23 y su jinete es Paco
+2025-11-05 16:34:51 [INFO] (Caballo): caballo3 Exp 7 Peso 28.0 Vel 21 y su jinete es Pedro
+2025-11-05 16:34:51 [INFO] (Iniciar): Carrera1
+2025-11-05 16:34:51 [INFO] (Iniciar): Comienza la carrera Carrera1 con los metros 100.0
+2025-11-05 16:34:51 [INFO] (GranPremio): 	Caballo Rocinante con el jinete: Pepe
+2025-11-05 16:34:51 [INFO] (GranPremio): 	Caballo caballo2 con el jinete: Paco
+2025-11-05 16:34:51 [INFO] (GranPremio): 	Caballo caballo3 con el jinete: Pedro
+2025-11-05 16:34:51 [INFO] (GranPremio): El apostante apostate1 con el saldo 200.0
+2025-11-05 16:35:08 [INFO] (GranPremio): El apostante apostate2 con el saldo 400.0
+2025-11-05 16:35:24 [INFO] (GranPremio): El apostante apostate3 con el saldo 500.0
+2025-11-05 16:35:39 [INFO] (Caballo): La base aleatoria es 12
+2025-11-05 16:35:39 [INFO] (Caballo): El caballo Rocinante avanza 21
+2025-11-05 16:35:39 [INFO] (Caballo): Su avance total es: 21
+2025-11-05 16:35:39 [INFO] (Caballo): La base aleatoria es 12
+2025-11-05 16:35:39 [INFO] (Caballo): El caballo caballo2 avanza 15
+2025-11-05 16:35:39 [INFO] (Caballo): Su avance total es: 15
+2025-11-05 16:35:39 [INFO] (Caballo): La base aleatoria es 43
+2025-11-05 16:35:39 [INFO] (Caballo): El caballo caballo3 avanza 43
+2025-11-05 16:35:39 [INFO] (Caballo): Su avance total es: 43
+2025-11-05 16:35:39 [INFO] (GranPremio): 	Caballo Rocinante con el jinete: Pepe
+2025-11-05 16:35:39 [INFO] (GranPremio): 	Caballo caballo2 con el jinete: Paco
+2025-11-05 16:35:39 [INFO] (GranPremio): 	Caballo caballo3 con el jinete: Pedro
+2025-11-05 16:35:39 [INFO] (GranPremio): El apostante apostate1 con el saldo 200.0
+2025-11-05 17:02:28 [INFO] (Caballo): Rocinante Exp 9 Peso 21.0 Vel 24 y su jinete es Pepe
+2025-11-05 17:02:28 [INFO] (Caballo): caballo2 Exp 9 Peso 25.0 Vel 21 y su jinete es Paco
+2025-11-05 17:02:28 [INFO] (Caballo): caballo3 Exp 5 Peso 26.0 Vel 27 y su jinete es Pedro
+2025-11-05 17:02:28 [INFO] (Iniciar): Carrera1
+2025-11-05 17:02:28 [INFO] (Iniciar): Comienza la carrera Carrera1 con los metros 100.0
+2025-11-05 17:02:28 [INFO] (GranPremio): 	Caballo Rocinante con el jinete: Pepe
+2025-11-05 17:02:28 [INFO] (GranPremio): 	Caballo caballo2 con el jinete: Paco
+2025-11-05 17:02:28 [INFO] (GranPremio): 	Caballo caballo3 con el jinete: Pedro
+2025-11-05 17:02:28 [INFO] (GranPremio): El apostante apostate1 con el saldo 200.0
+2025-11-05 17:02:47 [INFO] (GranPremio): El apostante apostate2 con el saldo 400.0
+2025-11-05 17:02:56 [INFO] (GranPremio): El apostante apostate3 con el saldo 500.0
+2025-11-05 17:03:17 [INFO] (Caballo): La base aleatoria es 46
+2025-11-05 17:03:17 [INFO] (Caballo): El caballo Rocinante avanza 58
+2025-11-05 17:03:17 [INFO] (Caballo): Su avance total es: 58
+2025-11-05 17:03:17 [INFO] (Caballo): La base aleatoria es 42
+2025-11-05 17:03:17 [INFO] (Caballo): El caballo caballo2 avanza 47
+2025-11-05 17:03:17 [INFO] (Caballo): Su avance total es: 47
+2025-11-05 17:03:17 [INFO] (Caballo): La base aleatoria es 36
+2025-11-05 17:03:17 [INFO] (Caballo): El caballo caballo3 avanza 42
+2025-11-05 17:03:17 [INFO] (Caballo): Su avance total es: 42
+2025-11-05 17:03:17 [INFO] (GranPremio): 	Caballo Rocinante con el jinete: Pepe
+2025-11-05 17:03:17 [INFO] (GranPremio): 	Caballo caballo2 con el jinete: Paco
+2025-11-05 17:03:17 [INFO] (GranPremio): 	Caballo caballo3 con el jinete: Pedro
+2025-11-05 17:03:17 [INFO] (GranPremio): El apostante apostate1 con el saldo 200.0
+2025-11-05 17:04:26 [INFO] (Caballo): Rocinante Exp 7 Peso 26.0 Vel 26 y su jinete es Pepe
+2025-11-05 17:04:26 [INFO] (Caballo): caballo2 Exp 9 Peso 24.0 Vel 26 y su jinete es Paco
+2025-11-05 17:04:26 [INFO] (Caballo): caballo3 Exp 3 Peso 25.0 Vel 21 y su jinete es Pedro
+2025-11-05 17:04:26 [INFO] (Iniciar): Carrera1
+2025-11-05 17:04:26 [INFO] (Iniciar): Comienza la carrera Carrera1 con los metros 100.0
+2025-11-05 17:04:26 [INFO] (GranPremio): 	Caballo Rocinante con el jinete: Pepe
+2025-11-05 17:04:26 [INFO] (GranPremio): 	Caballo caballo2 con el jinete: Paco
+2025-11-05 17:04:26 [INFO] (GranPremio): 	Caballo caballo3 con el jinete: Pedro
+2025-11-05 17:04:26 [INFO] (GranPremio): El apostante apostate1 con el saldo 200.0
+2025-11-05 17:04:32 [INFO] (GranPremio): El apostante apostate2 con el saldo 400.0
+2025-11-05 17:04:36 [INFO] (GranPremio): El apostante apostate3 con el saldo 500.0
+2025-11-05 17:05:13 [INFO] (Caballo): La base aleatoria es 34
+2025-11-05 17:05:13 [INFO] (Caballo): El caballo Rocinante avanza 41
+2025-11-05 17:05:13 [INFO] (Caballo): Su avance total es: 41
+2025-11-05 17:05:13 [INFO] (Caballo): La base aleatoria es 4
+2025-11-05 17:05:13 [INFO] (Caballo): El caballo caballo2 avanza 15
+2025-11-05 17:05:13 [INFO] (Caballo): Su avance total es: 15
+2025-11-05 17:05:13 [INFO] (Caballo): La base aleatoria es 11
+2025-11-05 17:05:13 [INFO] (Caballo): El caballo caballo3 avanza 10
+2025-11-05 17:05:13 [INFO] (Caballo): Su avance total es: 10
+2025-11-05 17:05:13 [INFO] (Caballo): La base aleatoria es 14
+2025-11-05 17:05:13 [INFO] (Caballo): El caballo Rocinante avanza 21
+2025-11-05 17:05:13 [INFO] (Caballo): Su avance total es: 62
+2025-11-05 17:05:13 [INFO] (Caballo): La base aleatoria es 30
+2025-11-05 17:05:13 [INFO] (Caballo): El caballo caballo2 avanza 41
+2025-11-05 17:05:13 [INFO] (Caballo): Su avance total es: 56
+2025-11-05 17:05:13 [INFO] (Caballo): La base aleatoria es 22
+2025-11-05 17:05:13 [INFO] (Caballo): El caballo caballo3 avanza 21
+2025-11-05 17:05:13 [INFO] (Caballo): Su avance total es: 31
+2025-11-05 17:05:13 [INFO] (Caballo): La base aleatoria es 36
+2025-11-05 17:05:13 [INFO] (Caballo): El caballo Rocinante avanza 43
+2025-11-05 17:05:13 [INFO] (Caballo): Su avance total es: 105
+2025-11-05 17:05:13 [INFO] (GranPremio): GANADOR: Rocinante DE LA  Carrera1
+2025-11-05 17:05:13 [INFO] (GranPremio): El apostante GranPremio.Apostante@5b6f7412 ha ganado 500.0
+2025-11-05 17:05:13 [INFO] (Iniciar): Fin de la carrera Carrera1
+2025-11-05 17:05:13 [INFO] (Iniciar): Comienza la carrera Carrera2 con los metros 200.0
+2025-11-05 17:05:13 [INFO] (GranPremio): 	Caballo Rocinante con el jinete: Pepe
+2025-11-05 17:05:13 [INFO] (GranPremio): 	Caballo caballo2 con el jinete: Paco
+2025-11-05 17:05:13 [INFO] (GranPremio): 	Caballo caballo3 con el jinete: Pedro
+2025-11-05 17:05:13 [INFO] (GranPremio): El apostante apostate1 con el saldo 500.0
+2025-11-05 17:11:02 [INFO] (Caballo): Rocinante Exp 2 Peso 29.0 Vel 26 y su jinete es Pepe
+2025-11-05 17:11:02 [INFO] (Caballo): caballo2 Exp 0 Peso 23.0 Vel 24 y su jinete es Paco
+2025-11-05 17:11:02 [INFO] (Caballo): caballo3 Exp 2 Peso 23.0 Vel 20 y su jinete es Pedro
+2025-11-05 17:11:02 [INFO] (Iniciar): Carrera1
+2025-11-05 17:11:02 [INFO] (Iniciar): Comienza la carrera Carrera1 con los metros 100.0
+2025-11-05 17:11:02 [INFO] (GranPremio): 	Caballo Rocinante con el jinete: Pepe
+2025-11-05 17:11:02 [INFO] (GranPremio): 	Caballo caballo2 con el jinete: Paco
+2025-11-05 17:11:02 [INFO] (GranPremio): 	Caballo caballo3 con el jinete: Pedro
+2025-11-05 17:11:02 [INFO] (GranPremio): El apostante apostate1 con el saldo 200.0
+2025-11-05 17:11:10 [INFO] (GranPremio): El apostante apostate2 con el saldo 400.0
+2025-11-05 17:11:16 [INFO] (GranPremio): El apostante apostate3 con el saldo 500.0
+2025-11-05 17:11:27 [INFO] (Caballo): La base aleatoria es 42
+2025-11-05 17:11:27 [INFO] (Caballo): El caballo Rocinante avanza 41
+2025-11-05 17:11:27 [INFO] (Caballo): Su avance total es: 41
+2025-11-05 17:11:27 [INFO] (Caballo): La base aleatoria es 7
+2025-11-05 17:11:27 [INFO] (Caballo): El caballo caballo2 avanza 8
+2025-11-05 17:11:27 [INFO] (Caballo): Su avance total es: 8
+2025-11-05 17:11:27 [INFO] (Caballo): La base aleatoria es 30
+2025-11-05 17:11:27 [INFO] (Caballo): El caballo caballo3 avanza 29
+2025-11-05 17:11:27 [INFO] (Caballo): Su avance total es: 29
+2025-11-05 17:11:27 [INFO] (Caballo): La base aleatoria es 36
+2025-11-05 17:11:27 [INFO] (Caballo): El caballo Rocinante avanza 35
+2025-11-05 17:11:27 [INFO] (Caballo): Su avance total es: 76
+2025-11-05 17:11:27 [INFO] (Caballo): La base aleatoria es 2
+2025-11-05 17:11:27 [INFO] (Caballo): El caballo caballo2 avanza 3
+2025-11-05 17:11:27 [INFO] (Caballo): Su avance total es: 11
+2025-11-05 17:11:27 [INFO] (Caballo): La base aleatoria es 9
+2025-11-05 17:11:27 [INFO] (Caballo): El caballo caballo3 avanza 8
+2025-11-05 17:11:27 [INFO] (Caballo): Su avance total es: 37
+2025-11-05 17:11:27 [INFO] (Caballo): La base aleatoria es 8
+2025-11-05 17:11:27 [INFO] (Caballo): El caballo Rocinante avanza 7
+2025-11-05 17:11:27 [INFO] (Caballo): Su avance total es: 83
+2025-11-05 17:11:27 [INFO] (Caballo): La base aleatoria es 2
+2025-11-05 17:11:27 [INFO] (Caballo): El caballo caballo2 avanza 3
+2025-11-05 17:11:27 [INFO] (Caballo): Su avance total es: 14
+2025-11-05 17:11:27 [INFO] (Caballo): La base aleatoria es 27
+2025-11-05 17:11:27 [INFO] (Caballo): El caballo caballo3 avanza 26
+2025-11-05 17:11:27 [INFO] (Caballo): Su avance total es: 63
+2025-11-05 17:11:27 [INFO] (Caballo): La base aleatoria es 31
+2025-11-05 17:11:27 [INFO] (Caballo): El caballo Rocinante avanza 30
+2025-11-05 17:11:27 [INFO] (Caballo): Su avance total es: 113
+2025-11-05 17:11:27 [INFO] (GranPremio): GANADOR: Rocinante DE LA  Carrera1
+2025-11-05 17:11:27 [INFO] (GranPremio): El apostante GranPremio.Apostante@5b6f7412 ha ganado 500.0
+2025-11-05 17:11:27 [INFO] (Iniciar): Fin de la carrera Carrera1
+2025-11-05 17:11:27 [INFO] (Iniciar): Comienza la carrera Carrera2 con los metros 200.0
+2025-11-05 17:11:27 [INFO] (GranPremio): 	Caballo Rocinante con el jinete: Pepe
+2025-11-05 17:11:27 [INFO] (GranPremio): 	Caballo caballo2 con el jinete: Paco
+2025-11-05 17:11:27 [INFO] (GranPremio): 	Caballo caballo3 con el jinete: Pedro
+2025-11-05 17:11:27 [INFO] (GranPremio): El apostante apostate1 con el saldo 500.0
+2025-11-05 17:12:19 [INFO] (GranPremio): El apostante apostate2 con el saldo 300.0
+2025-11-05 17:13:03 [INFO] (Caballo): Rocinante Exp 9 Peso 29.0 Vel 27 y su jinete es Pepe
+2025-11-05 17:13:03 [INFO] (Caballo): caballo2 Exp 3 Peso 24.0 Vel 24 y su jinete es Paco
+2025-11-05 17:13:03 [INFO] (Caballo): caballo3 Exp 9 Peso 27.0 Vel 24 y su jinete es Pedro
+2025-11-05 17:13:03 [INFO] (Iniciar): Carrera1
+2025-11-05 17:13:03 [INFO] (Iniciar): Comienza la carrera Carrera1 con los metros 100.0
+2025-11-05 17:13:03 [INFO] (GranPremio): 	Caballo Rocinante con el jinete: Pepe
+2025-11-05 17:13:03 [INFO] (GranPremio): 	Caballo caballo2 con el jinete: Paco
+2025-11-05 17:13:03 [INFO] (GranPremio): 	Caballo caballo3 con el jinete: Pedro
+2025-11-05 17:13:03 [INFO] (GranPremio): El apostante apostate1 con el saldo 200.0
+2025-11-05 17:13:46 [INFO] (GranPremio): El apostante apostate2 con el saldo 400.0
+2025-11-05 17:25:39 [INFO] (GranPremio): El apostante apostate3 con el saldo 500.0
+2025-11-05 17:25:46 [INFO] (Caballo): La base aleatoria es 42
+2025-11-05 17:25:46 [INFO] (Caballo): El caballo Rocinante avanza 49
+2025-11-05 17:25:46 [INFO] (Caballo): Su avance total es: 49
+2025-11-05 17:25:46 [INFO] (Caballo): La base aleatoria es 2
+2025-11-05 17:25:46 [INFO] (Caballo): El caballo caballo2 avanza 5
+2025-11-05 17:25:46 [INFO] (Caballo): Su avance total es: 5
+2025-11-05 17:25:46 [INFO] (Caballo): La base aleatoria es 48
+2025-11-05 17:25:46 [INFO] (Caballo): El caballo caballo3 avanza 54
+2025-11-05 17:25:46 [INFO] (Caballo): Su avance total es: 54
+2025-11-05 17:25:46 [INFO] (Caballo): La base aleatoria es 4
+2025-11-05 17:25:46 [INFO] (Caballo): El caballo Rocinante avanza 11
+2025-11-05 17:25:46 [INFO] (Caballo): Su avance total es: 60
+2025-11-05 17:25:46 [INFO] (Caballo): La base aleatoria es 6
+2025-11-05 17:25:46 [INFO] (Caballo): El caballo caballo2 avanza 9
+2025-11-05 17:25:46 [INFO] (Caballo): Su avance total es: 14
+2025-11-05 17:25:46 [INFO] (Caballo): La base aleatoria es 4
+2025-11-05 17:25:46 [INFO] (Caballo): El caballo caballo3 avanza 10
+2025-11-05 17:25:46 [INFO] (Caballo): Su avance total es: 64
+2025-11-05 17:25:46 [INFO] (Caballo): La base aleatoria es 13
+2025-11-05 17:25:46 [INFO] (Caballo): El caballo Rocinante avanza 20
+2025-11-05 17:25:46 [INFO] (Caballo): Su avance total es: 80
+2025-11-05 17:25:46 [INFO] (Caballo): La base aleatoria es 33
+2025-11-05 17:25:46 [INFO] (Caballo): El caballo caballo2 avanza 36
+2025-11-05 17:25:46 [INFO] (Caballo): Su avance total es: 50
+2025-11-05 17:25:46 [INFO] (Caballo): La base aleatoria es 38
+2025-11-05 17:25:46 [INFO] (Caballo): El caballo caballo3 avanza 44
+2025-11-05 17:25:46 [INFO] (Caballo): Su avance total es: 108
+2025-11-05 17:25:46 [INFO] (GranPremio): GANADOR: caballo3 DE LA  Carrera1
+2025-11-05 17:25:46 [INFO] (GranPremio): El apostante apostate3 ha ganado 500.0
+2025-11-05 17:25:46 [INFO] (Iniciar): Fin de la carrera Carrera1
+2025-11-05 17:25:46 [INFO] (Iniciar): Comienza la carrera Carrera2 con los metros 200.0
+2025-11-05 17:25:46 [INFO] (GranPremio): 	Caballo Rocinante con el jinete: Pepe
+2025-11-05 17:25:46 [INFO] (GranPremio): 	Caballo caballo2 con el jinete: Paco
+2025-11-05 17:25:46 [INFO] (GranPremio): 	Caballo caballo3 con el jinete: Pedro
+2025-11-05 17:25:46 [INFO] (GranPremio): El apostante apostate1 con el saldo 100.0
+2025-11-05 17:26:04 [INFO] (GranPremio): El apostante apostate2 con el saldo 300.0
+2025-11-05 17:26:11 [INFO] (GranPremio): El apostante apostate3 con el saldo 600.0
+2025-11-05 17:26:25 [INFO] (Caballo): La base aleatoria es 45
+2025-11-05 17:26:25 [INFO] (Caballo): El caballo Rocinante avanza 52
+2025-11-05 17:26:25 [INFO] (Caballo): Su avance total es: 132
+2025-11-05 17:26:25 [INFO] (Caballo): La base aleatoria es 24
+2025-11-05 17:26:25 [INFO] (Caballo): El caballo caballo2 avanza 27
+2025-11-05 17:26:25 [INFO] (Caballo): Su avance total es: 77
+2025-11-05 17:26:25 [INFO] (Caballo): La base aleatoria es 24
+2025-11-05 17:26:25 [INFO] (Caballo): El caballo caballo3 avanza 30
+2025-11-05 17:26:25 [INFO] (Caballo): Su avance total es: 138
+2025-11-05 17:26:25 [INFO] (Caballo): La base aleatoria es 45
+2025-11-05 17:26:25 [INFO] (Caballo): El caballo Rocinante avanza 52
+2025-11-05 17:26:25 [INFO] (Caballo): Su avance total es: 184
+2025-11-05 17:26:25 [INFO] (Caballo): La base aleatoria es 44
+2025-11-05 17:26:25 [INFO] (Caballo): El caballo caballo2 avanza 47
+2025-11-05 17:26:25 [INFO] (Caballo): Su avance total es: 124
+2025-11-05 17:26:25 [INFO] (Caballo): La base aleatoria es 30
+2025-11-05 17:26:25 [INFO] (Caballo): El caballo caballo3 avanza 36
+2025-11-05 17:26:25 [INFO] (Caballo): Su avance total es: 174
+2025-11-05 17:26:25 [INFO] (Caballo): La base aleatoria es 21
+2025-11-05 17:26:25 [INFO] (Caballo): El caballo Rocinante avanza 28
+2025-11-05 17:26:25 [INFO] (Caballo): Su avance total es: 212
+2025-11-05 17:26:25 [INFO] (GranPremio): GANADOR: Rocinante DE LA  Carrera2
+2025-11-05 17:26:25 [INFO] (GranPremio): El apostante apostate1 ha ganado 500.0
+2025-11-05 17:26:25 [INFO] (Iniciar): Fin de la carrera Carrera2
+2025-11-05 17:26:25 [INFO] (Iniciar): Comienza la carrera Carrera3 con los metros 400.0
+2025-11-05 17:26:25 [INFO] (GranPremio): 	Caballo Rocinante con el jinete: Pepe
+2025-11-05 17:26:25 [INFO] (GranPremio): 	Caballo caballo2 con el jinete: Paco
+2025-11-05 17:26:25 [INFO] (GranPremio): 	Caballo caballo3 con el jinete: Pedro
+2025-11-05 17:26:25 [INFO] (GranPremio): El apostante apostate1 con el saldo 600.0
+2025-11-05 17:27:06 [INFO] (GranPremio): El apostante apostate2 con el saldo 200.0
+2025-11-05 17:27:15 [INFO] (GranPremio): El apostante apostate3 con el saldo 400.0
+2025-11-05 17:27:28 [INFO] (Caballo): La base aleatoria es 36
+2025-11-05 17:27:28 [INFO] (Caballo): El caballo Rocinante avanza 43
+2025-11-05 17:27:28 [INFO] (Caballo): Su avance total es: 255
+2025-11-05 17:27:28 [INFO] (Caballo): La base aleatoria es 47
+2025-11-05 17:27:28 [INFO] (Caballo): El caballo caballo2 avanza 50
+2025-11-05 17:27:28 [INFO] (Caballo): Su avance total es: 174
+2025-11-05 17:27:28 [INFO] (Caballo): La base aleatoria es 0
+2025-11-05 17:27:28 [INFO] (Caballo): El caballo caballo3 avanza 6
+2025-11-05 17:27:28 [INFO] (Caballo): Su avance total es: 180
+2025-11-05 17:27:28 [INFO] (Caballo): La base aleatoria es 21
+2025-11-05 17:27:28 [INFO] (Caballo): El caballo Rocinante avanza 28
+2025-11-05 17:27:28 [INFO] (Caballo): Su avance total es: 283
+2025-11-05 17:27:28 [INFO] (Caballo): La base aleatoria es 13
+2025-11-05 17:27:28 [INFO] (Caballo): El caballo caballo2 avanza 16
+2025-11-05 17:27:28 [INFO] (Caballo): Su avance total es: 190
+2025-11-05 17:27:28 [INFO] (Caballo): La base aleatoria es 44
+2025-11-05 17:27:28 [INFO] (Caballo): El caballo caballo3 avanza 50
+2025-11-05 17:27:28 [INFO] (Caballo): Su avance total es: 230
+2025-11-05 17:27:28 [INFO] (Caballo): La base aleatoria es 47
+2025-11-05 17:27:28 [INFO] (Caballo): El caballo Rocinante avanza 54
+2025-11-05 17:27:28 [INFO] (Caballo): Su avance total es: 337
+2025-11-05 17:27:28 [INFO] (Caballo): La base aleatoria es 1
+2025-11-05 17:27:28 [INFO] (Caballo): El caballo caballo2 avanza 4
+2025-11-05 17:27:28 [INFO] (Caballo): Su avance total es: 194
+2025-11-05 17:27:28 [INFO] (Caballo): La base aleatoria es 22
+2025-11-05 17:27:28 [INFO] (Caballo): El caballo caballo3 avanza 28
+2025-11-05 17:27:28 [INFO] (Caballo): Su avance total es: 258
+2025-11-05 17:27:28 [INFO] (Caballo): La base aleatoria es 10
+2025-11-05 17:27:28 [INFO] (Caballo): El caballo Rocinante avanza 17
+2025-11-05 17:27:28 [INFO] (Caballo): Su avance total es: 354
+2025-11-05 17:27:28 [INFO] (Caballo): La base aleatoria es 14
+2025-11-05 17:27:28 [INFO] (Caballo): El caballo caballo2 avanza 17
+2025-11-05 17:27:28 [INFO] (Caballo): Su avance total es: 211
+2025-11-05 17:27:28 [INFO] (Caballo): La base aleatoria es 48
+2025-11-05 17:27:28 [INFO] (Caballo): El caballo caballo3 avanza 54
+2025-11-05 17:27:28 [INFO] (Caballo): Su avance total es: 312
+2025-11-05 17:27:28 [INFO] (Caballo): La base aleatoria es 22
+2025-11-05 17:27:28 [INFO] (Caballo): El caballo Rocinante avanza 29
+2025-11-05 17:27:28 [INFO] (Caballo): Su avance total es: 383
+2025-11-05 17:27:28 [INFO] (Caballo): La base aleatoria es 27
+2025-11-05 17:27:28 [INFO] (Caballo): El caballo caballo2 avanza 30
+2025-11-05 17:27:28 [INFO] (Caballo): Su avance total es: 241
+2025-11-05 17:27:28 [INFO] (Caballo): La base aleatoria es 12
+2025-11-05 17:27:28 [INFO] (Caballo): El caballo caballo3 avanza 18
+2025-11-05 17:27:28 [INFO] (Caballo): Su avance total es: 330
+2025-11-05 17:27:28 [INFO] (Caballo): La base aleatoria es 9
+2025-11-05 17:27:28 [INFO] (Caballo): El caballo Rocinante avanza 16
+2025-11-05 17:27:28 [INFO] (Caballo): Su avance total es: 399
+2025-11-05 17:27:28 [INFO] (Caballo): La base aleatoria es 24
+2025-11-05 17:27:28 [INFO] (Caballo): El caballo caballo2 avanza 27
+2025-11-05 17:27:28 [INFO] (Caballo): Su avance total es: 268
+2025-11-05 17:27:28 [INFO] (Caballo): La base aleatoria es 35
+2025-11-05 17:27:28 [INFO] (Caballo): El caballo caballo3 avanza 41
+2025-11-05 17:27:28 [INFO] (Caballo): Su avance total es: 371
+2025-11-05 17:27:28 [INFO] (Caballo): La base aleatoria es 11
+2025-11-05 17:27:28 [INFO] (Caballo): El caballo Rocinante avanza 18
+2025-11-05 17:27:28 [INFO] (Caballo): Su avance total es: 417
+2025-11-05 17:27:28 [INFO] (GranPremio): GANADOR: Rocinante DE LA  Carrera3
+2025-11-05 17:27:28 [INFO] (GranPremio): El apostante apostate1 ha ganado 500.0
+2025-11-05 17:27:28 [INFO] (Iniciar): Fin de la carrera Carrera3
+2025-11-05 17:27:28 [INFO] (GranPremio): RESULTADOS
+2025-11-05 17:27:28 [INFO] (GranPremio): CARRERA1
+2025-11-05 17:28:52 [INFO] (Caballo): Rocinante Exp 4 Peso 29.0 Vel 28 y su jinete es Pepe
+2025-11-05 17:28:52 [INFO] (Caballo): caballo2 Exp 5 Peso 23.0 Vel 22 y su jinete es Paco
+2025-11-05 17:28:52 [INFO] (Caballo): caballo3 Exp 7 Peso 24.0 Vel 26 y su jinete es Pedro
+2025-11-05 17:28:52 [INFO] (Iniciar): Carrera1
+2025-11-05 17:28:52 [INFO] (Iniciar): Comienza la carrera Carrera1 con los metros 100.0
+2025-11-05 17:28:52 [INFO] (GranPremio): 	Caballo Rocinante con el jinete: Pepe
+2025-11-05 17:28:52 [INFO] (GranPremio): 	Caballo caballo2 con el jinete: Paco
+2025-11-05 17:28:52 [INFO] (GranPremio): 	Caballo caballo3 con el jinete: Pedro
+2025-11-05 17:28:52 [INFO] (GranPremio): El apostante apostate1 con el saldo 200.0
+2025-11-05 17:29:01 [INFO] (GranPremio): El apostante apostate2 con el saldo 400.0
+2025-11-05 17:29:08 [INFO] (GranPremio): El apostante apostate3 con el saldo 500.0
+2025-11-05 17:29:16 [INFO] (Caballo): El caballo Rocinante avanza 41
+2025-11-05 17:29:16 [INFO] (Caballo): Su avance total es: 41
+2025-11-05 17:29:16 [INFO] (Caballo): El caballo caballo2 avanza 49
+2025-11-05 17:29:16 [INFO] (Caballo): Su avance total es: 49
+2025-11-05 17:29:16 [INFO] (Caballo): El caballo caballo3 avanza 31
+2025-11-05 17:29:16 [INFO] (Caballo): Su avance total es: 31
+2025-11-05 17:29:16 [INFO] (Caballo): El caballo Rocinante avanza 41
+2025-11-05 17:29:16 [INFO] (Caballo): Su avance total es: 82
+2025-11-05 17:29:16 [INFO] (Caballo): El caballo caballo2 avanza 45
+2025-11-05 17:29:16 [INFO] (Caballo): Su avance total es: 94
+2025-11-05 17:29:16 [INFO] (Caballo): El caballo caballo3 avanza 29
+2025-11-05 17:29:16 [INFO] (Caballo): Su avance total es: 60
+2025-11-05 17:29:16 [INFO] (Caballo): El caballo Rocinante avanza 12
+2025-11-05 17:29:16 [INFO] (Caballo): Su avance total es: 94
+2025-11-05 17:29:16 [INFO] (Caballo): El caballo caballo2 avanza 15
+2025-11-05 17:29:16 [INFO] (Caballo): Su avance total es: 109
+2025-11-05 17:29:16 [INFO] (GranPremio): GANADOR: caballo2 DE LA  Carrera1
+2025-11-05 17:29:16 [INFO] (GranPremio): El apostante apostate2 ha ganado 1000.0
+2025-11-05 17:29:16 [INFO] (Iniciar): Fin de la carrera Carrera1
+2025-11-05 17:29:16 [INFO] (Iniciar): Comienza la carrera Carrera2 con los metros 200.0
+2025-11-05 17:29:16 [INFO] (GranPremio): 	Caballo Rocinante con el jinete: Pepe
+2025-11-05 17:29:16 [INFO] (GranPremio): 	Caballo caballo2 con el jinete: Paco
+2025-11-05 17:29:16 [INFO] (GranPremio): 	Caballo caballo3 con el jinete: Pedro
+2025-11-05 17:29:16 [INFO] (GranPremio): El apostante apostate1 con el saldo 100.0
+2025-11-05 17:29:41 [INFO] (GranPremio): El apostante apostate2 con el saldo 1200.0
+2025-11-05 17:29:49 [INFO] (GranPremio): El apostante apostate3 con el saldo 300.0
+2025-11-05 17:29:59 [INFO] (Caballo): El caballo Rocinante avanza 40
+2025-11-05 17:29:59 [INFO] (Caballo): Su avance total es: 134
+2025-11-05 17:29:59 [INFO] (Caballo): El caballo caballo2 avanza 12
+2025-11-05 17:29:59 [INFO] (Caballo): Su avance total es: 121
+2025-11-05 17:29:59 [INFO] (Caballo): El caballo caballo3 avanza 47
+2025-11-05 17:29:59 [INFO] (Caballo): Su avance total es: 107
+2025-11-05 17:29:59 [INFO] (Caballo): El caballo Rocinante avanza 18
+2025-11-05 17:29:59 [INFO] (Caballo): Su avance total es: 152
+2025-11-05 17:29:59 [INFO] (Caballo): El caballo caballo2 avanza 50
+2025-11-05 17:29:59 [INFO] (Caballo): Su avance total es: 171
+2025-11-05 17:29:59 [INFO] (Caballo): El caballo caballo3 avanza 14
+2025-11-05 17:29:59 [INFO] (Caballo): Su avance total es: 121
+2025-11-05 17:29:59 [INFO] (Caballo): El caballo Rocinante avanza 21
+2025-11-05 17:29:59 [INFO] (Caballo): Su avance total es: 173
+2025-11-05 17:29:59 [INFO] (Caballo): El caballo caballo2 avanza 8
+2025-11-05 17:29:59 [INFO] (Caballo): Su avance total es: 179
+2025-11-05 17:29:59 [INFO] (Caballo): El caballo caballo3 avanza 19
+2025-11-05 17:29:59 [INFO] (Caballo): Su avance total es: 140
+2025-11-05 17:29:59 [INFO] (Caballo): El caballo Rocinante avanza 4
+2025-11-05 17:29:59 [INFO] (Caballo): Su avance total es: 177
+2025-11-05 17:29:59 [INFO] (Caballo): El caballo caballo2 avanza 31
+2025-11-05 17:29:59 [INFO] (Caballo): Su avance total es: 210
+2025-11-05 17:29:59 [INFO] (GranPremio): GANADOR: caballo2 DE LA  Carrera2
+2025-11-05 17:29:59 [INFO] (GranPremio): El apostante apostate2 ha ganado 2500.0
+2025-11-05 17:29:59 [INFO] (Iniciar): Fin de la carrera Carrera2
+2025-11-05 17:29:59 [INFO] (Iniciar): Comienza la carrera Carrera3 con los metros 400.0
+2025-11-05 17:29:59 [INFO] (GranPremio): 	Caballo Rocinante con el jinete: Pepe
+2025-11-05 17:29:59 [INFO] (GranPremio): 	Caballo caballo2 con el jinete: Paco
+2025-11-05 17:29:59 [INFO] (GranPremio): 	Caballo caballo3 con el jinete: Pedro
+2025-11-05 17:29:59 [INFO] (GranPremio): El apostante apostate1 con el saldo 50.0
+2025-11-05 17:30:10 [INFO] (GranPremio): El apostante apostate2 con el saldo 3000.0
+2025-11-05 17:30:27 [INFO] (GranPremio): El apostante apostate3 con el saldo 100.0
+2025-11-05 17:30:42 [INFO] (Caballo): El caballo Rocinante avanza 29
+2025-11-05 17:30:42 [INFO] (Caballo): Su avance total es: 206
+2025-11-05 17:30:42 [INFO] (Caballo): El caballo caballo2 avanza 20
+2025-11-05 17:30:42 [INFO] (Caballo): Su avance total es: 230
+2025-11-05 17:30:42 [INFO] (Caballo): El caballo caballo3 avanza 16
+2025-11-05 17:30:42 [INFO] (Caballo): Su avance total es: 156
+2025-11-05 17:30:42 [INFO] (Caballo): El caballo Rocinante avanza 25
+2025-11-05 17:30:42 [INFO] (Caballo): Su avance total es: 231
+2025-11-05 17:30:42 [INFO] (Caballo): El caballo caballo2 avanza 21
+2025-11-05 17:30:42 [INFO] (Caballo): Su avance total es: 251
+2025-11-05 17:30:42 [INFO] (Caballo): El caballo caballo3 avanza 47
+2025-11-05 17:30:42 [INFO] (Caballo): Su avance total es: 203
+2025-11-05 17:30:42 [INFO] (Caballo): El caballo Rocinante avanza 40
+2025-11-05 17:30:42 [INFO] (Caballo): Su avance total es: 271
+2025-11-05 17:30:42 [INFO] (Caballo): El caballo caballo2 avanza 26
+2025-11-05 17:30:42 [INFO] (Caballo): Su avance total es: 277
+2025-11-05 17:30:42 [INFO] (Caballo): El caballo caballo3 avanza 39
+2025-11-05 17:30:42 [INFO] (Caballo): Su avance total es: 242
+2025-11-05 17:30:42 [INFO] (Caballo): El caballo Rocinante avanza 43
+2025-11-05 17:30:42 [INFO] (Caballo): Su avance total es: 314
+2025-11-05 17:30:42 [INFO] (Caballo): El caballo caballo2 avanza 4
+2025-11-05 17:30:42 [INFO] (Caballo): Su avance total es: 281
+2025-11-05 17:30:42 [INFO] (Caballo): El caballo caballo3 avanza 36
+2025-11-05 17:30:42 [INFO] (Caballo): Su avance total es: 278
+2025-11-05 17:30:42 [INFO] (Caballo): El caballo Rocinante avanza 40
+2025-11-05 17:30:42 [INFO] (Caballo): Su avance total es: 354
+2025-11-05 17:30:42 [INFO] (Caballo): El caballo caballo2 avanza 29
+2025-11-05 17:30:42 [INFO] (Caballo): Su avance total es: 310
+2025-11-05 17:30:42 [INFO] (Caballo): El caballo caballo3 avanza 13
+2025-11-05 17:30:42 [INFO] (Caballo): Su avance total es: 291
+2025-11-05 17:30:42 [INFO] (Caballo): El caballo Rocinante avanza 12
+2025-11-05 17:30:42 [INFO] (Caballo): Su avance total es: 366
+2025-11-05 17:30:42 [INFO] (Caballo): El caballo caballo2 avanza 13
+2025-11-05 17:30:42 [INFO] (Caballo): Su avance total es: 323
+2025-11-05 17:30:42 [INFO] (Caballo): El caballo caballo3 avanza 47
+2025-11-05 17:30:42 [INFO] (Caballo): Su avance total es: 338
+2025-11-05 17:30:42 [INFO] (Caballo): El caballo Rocinante avanza 35
+2025-11-05 17:30:42 [INFO] (Caballo): Su avance total es: 401
+2025-11-05 17:30:42 [INFO] (GranPremio): GANADOR: Rocinante DE LA  Carrera3
+2025-11-05 17:30:42 [INFO] (GranPremio): El apostante apostate1 ha ganado 250.0
+2025-11-05 17:30:42 [INFO] (Iniciar): Fin de la carrera Carrera3
+2025-11-05 17:30:42 [INFO] (GranPremio): RESULTADOS
+2025-11-05 17:30:42 [INFO] (GranPremio): CARRERA1

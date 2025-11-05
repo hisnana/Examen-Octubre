@@ -50,7 +50,7 @@ public class Caballo implements Reseteable,Participable,Avanzable,Imprimible {
 	public int calcularAvanceTurno() {
 		// TODO Auto-generated method stub
 		int baseAleatoria= SimUtils.generarNumRandom(50);
-		MiLogger.info("La base aleatoria es "+baseAleatoria);
+		
 		int avanceMetros= (int) (baseAleatoria+velocidad+experiencia-peso+jinete.getAniosExperiencia());
 		if (avanceMetros < 0) {
 			avanceMetros = 0;

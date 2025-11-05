@@ -11,6 +11,9 @@ public class GranPremio {
 	private String nombre;
 	private List<Carrera> carreras;
 	private List<Apostante> apostantes;
+	private Caballo caballoGanador;
+	private List<Caballo> caballosGanadores;
+	private List<Apostante> apostantesGanadores;
 	
 
 
@@ -19,6 +22,9 @@ public class GranPremio {
 		this.nombre = nombre;
 		this.carreras = new ArrayList<Carrera>();
 		this.apostantes = new ArrayList<Apostante>();
+		this.caballoGanador = caballoGanador;
+		this.apostantesGanadores = new ArrayList<Apostante>();
+		this.caballosGanadores = new ArrayList<Caballo>();
 	}
 
 	//Getters and setters
@@ -56,9 +62,30 @@ public class GranPremio {
 	}
 
 
-	
 
+	public Caballo getCaballoGanador() {
+		return caballoGanador;
+	}
 
+	public void setCaballoGanador(Caballo caballoGanador) {
+		this.caballoGanador = caballoGanador;
+	}
+
+	public List<Caballo> getCaballosGanadores() {
+		return caballosGanadores;
+	}
+
+	public void setCaballosGanadores(List<Caballo> caballosGanadores) {
+		this.caballosGanadores = caballosGanadores;
+	}
+
+	public List<Apostante> getApostantesGanadores() {
+		return apostantesGanadores;
+	}
+
+	public void setApostantesGanadores(List<Apostante> apostantesGanadores) {
+		this.apostantesGanadores = apostantesGanadores;
+	}
 
 	public void empezarGranPremio(GranPremio granPremio) {
 		
@@ -127,6 +154,7 @@ public class GranPremio {
 			
 			Apuesta apuesta = new Apuesta(apostante,caballoApostado, cantidad);
 			carrera.addApuesta(apuesta);
+			apostante.actualizarSaldo(-cantidad);
 		}
 
 	}
@@ -143,6 +171,8 @@ public class GranPremio {
 			if(caballo.getMetrosRecorridos()>=(int)carrera.getDistanciaObjetivo()) {
 				ganador = true;
 				MiLogger.info("GANADOR: "+caballo.getNombre()+" DE LA  "+carrera.getNombre());
+				this.caballoGanador=caballo;
+				caballosGanadores.add(caballo);
 				break;
 			}
 
@@ -150,8 +180,29 @@ public class GranPremio {
 		return ganador;
 		
 	}
+	
+	public void ganadoresApuestas (Carrera carrera) {
+		for (Apuesta apuesta : carrera.getApuestas()) {
+			if(apuesta.getCaballo().toString().equals(caballoGanador.toString())) {
+				MiLogger.info("El apostante "+apuesta.getApostante().getNombre().toString()+" ha ganado "+apuesta.getImporte()*5);
+				apuesta.getApostante().setSaldo(apuesta.getImporte()+apuesta.getImporte()*5);
+				
+			}
+			
+		}
+		
+		
+	}
 
-	public void mostrarResumen() {
+	public void mostrarResumen(GranPremio granpremio) {
+		
+		MiLogger.info("RESULTADOS");
+		int i = 0;
+		for(Carrera carrera : granpremio.getCarreras()) {
+			MiLogger.info(carrera.getNombre().toUpperCase());
+			MiLogger.info(granpremio.caballosGanadores.get(i).toString()+"  -  "+granpremio.apostantesGanadores.get(i).toString());
+			i++;
+		}
 		
 	}
 

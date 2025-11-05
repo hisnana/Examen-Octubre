@@ -27,8 +27,7 @@ public class Apuesta {
 		return importe;
 	}
 	public void setImporte(double importe) {
-		this.importe = importe;
+		this.importe = +importe;
 	}
-	
 
 }
