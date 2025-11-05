@@ -181,30 +181,43 @@ public class GranPremio {
 		
 	}
 	
-	public void ganadoresApuestas (Carrera carrera) {
-		for (Apuesta apuesta : carrera.getApuestas()) {
-			if(apuesta.getCaballo().toString().equals(caballoGanador.toString())) {
-				MiLogger.info("El apostante "+apuesta.getApostante().getNombre().toString()+" ha ganado "+apuesta.getImporte()*5);
-				apuesta.getApostante().setSaldo(apuesta.getImporte()+apuesta.getImporte()*5);
-				
-			}
-			
-		}
-		
-		
-	}
+    public void ganadoresApuestas (Carrera carrera) {
+        boolean ganadorRegistrado = false;
+        for (Apuesta apuesta : carrera.getApuestas()) {
+                if(apuesta.getCaballo().toString().equals(caballoGanador.toString())) {
+                        MiLogger.info("El apostante "+apuesta.getApostante().getNombre().toString()+" ha ganado "+apuesta.getImporte()*5);
+                        apuesta.getApostante().setSaldo(apuesta.getImporte()+apuesta.getImporte()*5);
+                        apostantesGanadores.add(apuesta.getApostante());
+                        ganadorRegistrado = true;
 
-	public void mostrarResumen(GranPremio granpremio) {
-		
-		MiLogger.info("RESULTADOS");
-		int i = 0;
-		for(Carrera carrera : granpremio.getCarreras()) {
-			MiLogger.info(carrera.getNombre().toUpperCase());
-			MiLogger.info(granpremio.caballosGanadores.get(i).toString()+"  -  "+granpremio.apostantesGanadores.get(i).toString());
-			i++;
-		}
-		
-	}
+                }
+
+        }
+
+        if(!ganadorRegistrado) {
+                MiLogger.info("No hay apostantes ganadores para la carrera " + carrera.getNombre());
+        }
+
+
+}
+
+public void mostrarResumen(GranPremio granpremio) {
+
+        MiLogger.info("RESULTADOS");
+        int i = 0;
+        for(Carrera carrera : granpremio.getCarreras()) {
+                MiLogger.info(carrera.getNombre().toUpperCase());
+                String resumenCaballo = (i < granpremio.caballosGanadores.size())
+                                ? granpremio.caballosGanadores.get(i).toString()
+                                : "Sin caballo ganador registrado";
+                String resumenApostante = (i < granpremio.apostantesGanadores.size())
+                                ? granpremio.apostantesGanadores.get(i).toString()
+                                : "Sin apostante ganador";
+                MiLogger.info(resumenCaballo+"  -  "+resumenApostante);
+                i++;
+        }
+
+}
 
 
 }
