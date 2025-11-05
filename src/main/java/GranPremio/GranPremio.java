@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import GranPremio.ui.CarreraFrame;
 import utils.MiLogger;
 import utils.SimUtils;
 
@@ -12,8 +14,9 @@ public class GranPremio {
 	private List<Carrera> carreras;
 	private List<Apostante> apostantes;
 	private Caballo caballoGanador;
-	private List<Caballo> caballosGanadores;
-	private List<Apostante> apostantesGanadores;
+        private List<Caballo> caballosGanadores;
+        private List<Apostante> apostantesGanadores;
+        private Map<Carrera, CarreraFrame> vistasCarrera;
 	
 
 
@@ -22,9 +25,10 @@ public class GranPremio {
 		this.nombre = nombre;
 		this.carreras = new ArrayList<Carrera>();
 		this.apostantes = new ArrayList<Apostante>();
-		this.caballoGanador = caballoGanador;
-		this.apostantesGanadores = new ArrayList<Apostante>();
-		this.caballosGanadores = new ArrayList<Caballo>();
+                this.caballoGanador = caballoGanador;
+                this.apostantesGanadores = new ArrayList<Apostante>();
+                this.caballosGanadores = new ArrayList<Caballo>();
+                this.vistasCarrera = new HashMap<>();
 	}
 
 	//Getters and setters
@@ -159,27 +163,45 @@ public class GranPremio {
 
 	}
 	
-	public boolean comenzarCarrera(Carrera carrera) {
-		boolean ganador = false;
-		for (Caballo caballo : carrera.getCaballosParticipantes()) {
-			if(caballo.getJinete()!= null&&caballo.getMetrosRecorridos()<carrera.getDistanciaObjetivo()) {
-				int avance = caballo.calcularAvanceTurno();
-				caballo.aplicarAvance(avance);
-				ganador = false;
-				
-			}
-			if(caballo.getMetrosRecorridos()>=(int)carrera.getDistanciaObjetivo()) {
-				ganador = true;
-				MiLogger.info("GANADOR: "+caballo.getNombre()+" DE LA  "+carrera.getNombre());
-				this.caballoGanador=caballo;
-				caballosGanadores.add(caballo);
-				break;
-			}
+        public boolean comenzarCarrera(Carrera carrera) {
+                CarreraFrame vistaCarrera = obtenerVistaCarrera(carrera);
+                boolean ganador = false;
+                Caballo caballoGanadorTurno = null;
+                for (Caballo caballo : carrera.getCaballosParticipantes()) {
+                        if (caballo.getJinete() != null && caballo.getMetrosRecorridos() < carrera.getDistanciaObjetivo()) {
+                                int avance = caballo.calcularAvanceTurno();
+                                caballo.aplicarAvance(avance);
+                                ganador = false;
 
-		}
-		return ganador;
-		
-	}
+                        }
+                        if (caballo.getMetrosRecorridos() >= (int) carrera.getDistanciaObjetivo()) {
+                                ganador = true;
+                                caballoGanadorTurno = caballo;
+                                MiLogger.info("GANADOR: " + caballo.getNombre() + " DE LA  " + carrera.getNombre());
+                                this.caballoGanador = caballo;
+                                caballosGanadores.add(caballo);
+                                break;
+                        }
+
+                }
+                vistaCarrera.updateProgress();
+                if (caballoGanadorTurno != null) {
+                        vistaCarrera.showWinner(caballoGanadorTurno);
+                }
+                return ganador;
+
+        }
+
+        private CarreraFrame obtenerVistaCarrera(Carrera carrera) {
+                CarreraFrame vista = vistasCarrera.get(carrera);
+                if (vista == null) {
+                        vista = new CarreraFrame(carrera);
+                        vistasCarrera.put(carrera, vista);
+                        vista.showFrame();
+                        vista.updateProgress();
+                }
+                return vista;
+        }
 	
 	public void ganadoresApuestas (Carrera carrera) {
 		for (Apuesta apuesta : carrera.getApuestas()) {
